@@ -1,7 +1,7 @@
 NAME  = libftprintf.a
 OBJECT = ft_printf.o ft_putstr.o ft_putchr.o ft_putnbr.o ft_putnbr_unsigned.o ft_puthex.o ft_putadd.o
 DEFS = libftprintf.h
-CC = CC
+CC = cc
 
 %.o: %.c $(DEFS)
 	$(CC) -c -o $@ $< -Wall -Wextra -Werror
