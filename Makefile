@@ -1,5 +1,5 @@
 NAME  = libftprintf.a
-OBJECT = ft_printf.o ft_putstr.o ft_putchr.o ft_putnbr.o ft_putnbr_unsigned.o ft_puthex.o ft_putadd.o
+OBJECT = sources/ft_printf.o sources/ft_putstr.o sources/ft_putchr.o sources/ft_putnbr.o sources/ft_putnbr_unsigned.o sources/ft_puthex.o sources/ft_putadd.o
 DEFS = libftprintf.h
 CC = cc
 
@@ -12,7 +12,7 @@ $(NAME): $(OBJECT)
 	ar rsc $(NAME) $(OBJECT)
 
 clean:
-	rm -rf *.o
+	rm -rf sources/*.o
 
 fclean: clean
 	rm -rf $(NAME)
