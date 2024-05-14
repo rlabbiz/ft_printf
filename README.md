@@ -3,12 +3,12 @@
 This project is a simplified implementation of the printf function in C, as part of the 42 Network curriculum. 
 ## Table of Contents
 - [ft\_printf](#ft_printf)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Usage](#usage)
-  - [Format Specifiers](#format-specifiers)
-  - [Building](#building)
-  - [Resources](#resources)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Format Specifiers](#format-specifiers)
+- [Building](#building)
+- [Resources](#resources)
 ## Introduction 
 The `ft_printf` function is designed to mimic the behavior of the standard `printf` function in C, allowing formatted output to be printed to the console or a file stream.
 ## Usage
