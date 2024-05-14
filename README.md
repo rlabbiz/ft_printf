@@ -2,8 +2,6 @@
 # ft_printf 
 This project is a simplified implementation of the printf function in C, as part of the 42 Network curriculum. 
 ## Table of Contents
-- [ft\_printf](#ft_printf)
-- [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Format Specifiers](#format-specifiers)
